@@ -13,7 +13,7 @@ class Post
     @@all
   end
 
-  def artist_name
+  def author_name
     if self.author
       self.author.name
     end
