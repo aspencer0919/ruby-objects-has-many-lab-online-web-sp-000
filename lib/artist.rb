@@ -7,4 +7,8 @@ class Artist
     @song = song
     @list << @song
   end
+
+  def song_count
+    @list.length
+  end
 end
