@@ -33,4 +33,8 @@ class Artist
   def add_song_by_name(name)
     name.artist = self
   end
+
+  def song_count
+    @@all.length
+  end
 end
