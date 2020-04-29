@@ -6,8 +6,8 @@ class Artist
     @name = name
   end
 
-  def add_song
-    @song.name = self
+  def add_song(song)
+    song.name = self
   end
 
   def song_count
