@@ -7,7 +7,7 @@ class Artist
   end
 
   def songs(song)
-    @song = song
+    @song = []
   end
 
   def song_count
