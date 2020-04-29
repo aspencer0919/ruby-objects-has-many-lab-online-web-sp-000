@@ -10,6 +10,10 @@ class Artist
     @song = []
   end
 
+  def add_song
+    @song.name = self
+  end
+
   def song_count
     @song.length
   end
