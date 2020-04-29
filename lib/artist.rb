@@ -6,6 +6,10 @@ class Artist
     @name = name
   end
 
+  def songs(song)
+    @song = song
+  end
+
   def song_count
     @list.length
   end
