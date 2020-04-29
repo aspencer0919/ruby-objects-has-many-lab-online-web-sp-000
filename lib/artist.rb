@@ -35,6 +35,6 @@ class Artist
   end
 
   def song_count
-    @@all.length
+    Song.all.length
   end
 end
